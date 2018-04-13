@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vending Machine</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="vending-machine">
+            <h1>Vending Machine</h1>
+            <div>
+                <div>
+                    <input disabled="true"  type="button" class="product" value="Coca Cola" id="coke">
+                    <span id="coke_count">10</span>
+                </div>
+                <div>
+                    <input disabled type="button" class="product" value="Chips" id="chips">
+                    <span id="chips_count">10</span>
+                </div>
+                <div>
+                    <input disabled type="button" class="product" value="Candy" id="candy">
+                    <span id="candy_count">10</span>
+                </div>
+            </div>
+            <div>
+                <div class="total">
+                    <input type="button" value="Nickel" class="coin" name="nickel" id="nickel">
+                    <input type="button" class="coin" value="Dime" id="dime">
+                    <input type="button" class="coin" value="Quarter" id="quarter">
+                </div>
+                <div class="total">
+                    <label>Amount</label><input type="text" id="total_amount" value="0">
+                </div>
+            </div>
+
+            <div class="balance">
+                <label>Balance Amount</label><input type="text"  id="balance_amount" value="0"><input type="button" value="Done" id="done">
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+/*style.css*/
+
+.vending-machine {
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    top:50;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: solid 1px grey;
+}
+
+input[type=button] {
+    height: 40px;
+    width: 100px;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+}
+
+input[type="text"] {
+    padding: 5;
+    height: 30px;
+    width: 100px;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    font-size: 16px;
+}
+
+.product{
+    width: 100px;
+    background-color: orange;
+}
+
+.coins{
+    float: left;
+}
+.total{
+    float: left;
+}
+.balance{
+    clear: both;
+    padding-top: 20px;
+}
